@@ -1,0 +1,236 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
+/* NAVIGATION */
+nav {
+    position: fixed;
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    border-style: solid;
+    color: purple;
+    /* z-index: 9999; */
+    /* line-height: 25px; */
+    /* padding-right: 50px; */
+}
+
+nav ul {
+    float: right;
+    /* margin: 0; */
+    padding: 0px 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 5px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+#logo {
+    height: 70px;
+    margin: 0px 50px;
+}
+
+/* HEADER */
+.section1 {
+    height: 325px;
+    width: auto;
+    background: yellow;
+    border-style: solid;
+    padding: 100px 0px 100px 100px;
+    /* color: blue; */
+    /* position: relative;
+    top: 100px; */
+    /* margin: 100px 100px 100px 100px; */
+    /* display: flex;  */
+    /* position: relative; */
+    /* top: 110px; */
+    /* display: inline-block; */
+    /* bottom: 1000px; */
+    /* float: left; */
+    /* padding: 400px 0px 0px 0x; */
+    /* align-content: center;
+    margin: 0px; */
+    /* color: blue; */
+    /* padding-top: 110px; */
+}
+
+#section1Image {
+    height: 325px;
+    padding: 47px 0px 50px 0px;
+    float: left;
+    border-style: solid;
+    color: green;
+    /* flex: 1 1 auto; */
+    /* margin: 0; */
+    /* width: auto; */
+    /* align-content: center; */
+}
+
+.section1Button {
+    background-color: #192592;
+    color: white;
+    width: 175px;
+    height: 50px;
+    border-radius: 5px;
+}
+#section1Text {
+    color: blue; 
+    border-style: solid;
+}
+
+/* .section1Container {
+    /* height: 300px;
+    color: blue;
+    border-style: solid;
+    padding: 100px 100px 100px 100px;
+    display: flex; */
+    /* display: inline-block; */
+    /* width: auto; */
+    /* margin: auto; */
+    /* float: left; */
+    /* padding: 75px 0px 25px 25px; */
+    /* position: relative right; */
+
+} 
+
+
+
+/* MAIN */
+/* .section2 .section2Text .flex-container {
+    /* height: 500px; */
+    
+    /* background: pink */
+    /* border-style: solid; */
+    /* color: red; */
+    /* position: relative; */
+    /* top: 300px; */
+/* }   */
+
+.section2 {
+    height: 500px;
+    /* border-block-style: solid; */
+    
+
+}
+#section2Text {
+    background: blue;
+    border-style: dashed;
+    align-content: center;
+}
+
+.section2Button {
+    background-color: white;
+    color: #192592;
+    width: 175px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #192592;
+}
+
+/* .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+} */
+
+.lt-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "airbnb capitalOne harvard ." "laTimes oracle ticketmaster ." ". . . .";
+}
+
+.lt-airbnb > img {  object-fit: cover;
+                    width: 100%;
+                    max-height: 100%;
+                    grid-area: lt-airbnb; }
+
+.lt-capitalOne > img {    object-fit: cover;
+                    width: 100%;
+                    max-height: 100%;
+                    grid-area: lt-capitalOne; }
+
+.lt-harvard > img {       object-fit: cover;
+                    width: 100%;
+                    max-height: 100%;
+                    grid-area: lt-harvard; }
+
+.lt-laTimes > img {       object-fit: cover;
+                    width: 100%;
+                    max-height: 100%;
+                    grid-area: lt-laTimes; }
+
+.lt-oracle > img {        object-fit: cover;
+                    width: 100%;
+                    max-height: 100%;
+                    grid-area: lt-oracle; }
+
+.lt-ticketmaster > img {  object-fit: cover;
+                    width: 100%;
+                    max-height: 100%;
+                    grid-area: lt-ticketmaster; }
+
+
+/* .flex-container {
+    background: : pink;
+    display: flex;
+    border-style: dotted;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+} */
+
+/* .item {
+    width: 100px;
+    height: auto;
+    margin: auto;
+} */
+
+.section3{
+    height: 150px;
+    border-style: double;
+    
+}
+
+.section3 p {
+
+}
+
+.section3Button {
+    background-color: #192592;
+    color: white;
+    width: 175px;
+    height: 50px;
+    border-radius: 5px;
+    float: right;
+
+}
+
+/* FOOTER */
+.section4 {
+    height: 500px;
+    color:green; 
+    border-style: solid;
+}
